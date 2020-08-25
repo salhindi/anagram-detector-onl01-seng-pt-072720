@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(anagrams)
-    anagrams.each {|x| x == x}
+    anagrams.each {|x| x.sort == x}
   end
     
 end
