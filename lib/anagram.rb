@@ -4,4 +4,7 @@ class Anagram
   def initialize(diaper)
     @diaper = diaper
   end
+  
+  def match
+    
 end
