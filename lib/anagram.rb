@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(anagrams)
-    anagrams.
+    anagrams.each {|x| 
   end
     
 end
