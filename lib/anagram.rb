@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(anagrams)
-    anagrams.each {|x| x.split("").sort == diaper.split.sort}
+    anagrams.each {|x| x.split("").sort == diaper.split("").sort}
   end
     
 end
